@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+
+    double pi, R, VOLUME;
+    int expoente = 3;
+
+    scanf("%lf", &R);
+    pi =  3.14159;
+    VOLUME = (4/3.0) * pi * pow(R, expoente);
+    printf("VOLUME = %.3lf\n", VOLUME);
+
+    return 0;
+}
